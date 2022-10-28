@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+      body{
+        display: flex;
+        place-items: center;
+        place-content: center;
+      }
+      form{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+      }
+      input, textarea{
+        height: 50px;
+        width: 70vw;
+        padding: 10px;
+        margin: 2px;
+      }
+    </style>
+</head>
+<body>
+    <div id="contact">
+        <h3>Connect and Collaborate</h3>
+        <p>Contact Me via any of these links: </p>
+        <div class="links-cont">
+          <a href="https://twitter.com/_ejdavid"  target="_blank">Twitter</a>
+          <a href="https://www.linkedin.com/in/david-ejiro-erhabor/" target="_blank">Linkedin</a>
+          <a href="https://medium.com/@daviderhabor.de" target="_blank">Medium</a>
+          <a href="tel:+2348158527977" target="_blank">Phone</a>
+        </div>
+        <br>
+        <p>Or send an email:</p>
+        <form>
+          <input type="email" value="email">
+          <input type="text" value="name">
+          <textarea type="text" name="message" value="enter your message"></textarea>
+          <input type="submit" value="send">
+        </form>
+      </div>
+</body>
+</html>
